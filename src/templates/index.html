@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>ASS - Automated SMS service</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="head">
+            <a href="/"><h3>A.S.S - Automated SMS Service</h3></a>
+        </div>
+        <div id="main">
+            {% block body %}
+            {% endblock %}
+    	</div>
+    </body>
+</html>
